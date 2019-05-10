@@ -7,6 +7,5 @@ while True:
         hero.cast("invisibility", self)
     if hero.pos.x > 160 and hero.pos.x < 170:
         hero.wait(5)
-    #direction = hero.move({"x": 275, "y": 37})
     direction = Vector(hero.pos.x + 30, hero.pos.y)
     hero.move(direction)
